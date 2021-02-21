@@ -1,0 +1,33 @@
+#board {
+  padding-bottom: 10px;
+}
+
+table {
+  background-color: whitesmoke;
+}
+
+td {
+  border: 1px solid darkgray;
+  width: 100px;
+  height: 100px;
+}
+
+td.dead {
+  background-color: transparent;
+}
+
+td.alive {
+  background-color: blue;
+}
+
+td.alive2 {
+  background-color: red;
+}
+
+#board {
+  margin: auto;
+  width: 12%;
+  padding: 10px;
+  align: center;
+  text-align: center;
+}
